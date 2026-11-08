@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="100%" height="100%">
+  <defs>
+    <!-- Emerald green gradient for the dynamic forward arrow -->
+    <linearGradient id="nextrole-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon: Overlapping progression chevrons -->
+  <g transform="translate(10, 0)">
+    <!-- Base Chevron (Inherits text color for dark/light mode) -->
+    <path d="M 10 20 L 30 40 L 10 60 L 15 67 L 42 40 L 15 13 Z" fill="currentColor" />
+    <!-- Gradient Chevron -->
+    <path d="M 32 20 L 52 40 L 32 60 L 37 67 L 64 40 L 37 13 Z" fill="url(#nextrole-gradient)" />
+  </g>
+
+  <!-- Typography -->
+  <!-- "Next" in heavy bold -->
+  <text 
+    x="90" 
+    y="52" 
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+    font-size="38" 
+    font-weight="800" 
+    fill="currentColor" 
+    letter-spacing="-1">
+    Next
+  </text>
+  
+  <!-- "Role" in standard weight -->
+  <text 
+    x="172" 
+    y="52" 
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+    font-size="38" 
+    font-weight="400" 
+    fill="currentColor" 
+    letter-spacing="-1">
+    Role
+  </text>
+</svg>
